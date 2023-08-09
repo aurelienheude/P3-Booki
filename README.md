@@ -1,10 +1,10 @@
 # Créez la page d'accueil d'une agence de voyage avec HTML & CSS
 
-![image](https://github.com/aurelienheude/P3-Booki/assets/50832720/a63252d4-eb25-40fd-bd0f-c57e8feb7f09)
+![image](https://github.com/aurelienheude/P3-Booki/assets/50832720/9533571d-fcf6-49ef-a895-3e6148277819)
 
 Vous débutez votre alternance en tant que développeur web au sein de la start-up Booki. 
 
-![image](https://github.com/aurelienheude/P3-Booki/assets/50832720/1bbbf35a-2716-4629-b1ce-17e6ef635e4c)
+![image](https://github.com/aurelienheude/P3-Booki/assets/50832720/60cb4967-b8c7-488f-9905-a3ce8ca7d4b8)
 
 L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.
 
@@ -18,22 +18,32 @@ Bonjour,
 
 Pour que le projet soit très clair, Loïc et moi t’avons préparé une note de synthèse qui regroupe les spécifications et contraintes techniques à respecter (voir pièce jointe).
 
-Pour t’aider à démarrer, je t’ai préparé la structure de fichiers du site ainsi qu’une base de code : 
+**Pour t’aider à démarrer, je t’ai préparé la structure de fichiers du site ainsi qu’une base de code :**
 
-un fichier “index.html” contenant une première base du code HTML que tu devras compléter ;
-un dossier “css” contenant un fichier “style.css” avec une première ébauche du code CSS et que tu devras compléter également ;
-un dossier “images” contenant l’ensemble des images utilisées sur le site.
- 
+- un fichier **“index.html”** contenant une première base du **code HTML** que tu devras compléter ;
+- un dossier **“css”** contenant un fichier **“style.css”** avec une première ébauche du code CSS et que tu devras compléter également ;
+- un dossier **“images”** contenant l’ensemble des images utilisées sur le site.
 
-Ce code est déjà un peu fourni et il te donnera les premiers éléments HTML et CSS. Tu peux t’en inspirer pour développer le reste du code, et il faut que tu conserves la même structure de dossiers. Tu devras ensuite m’envoyer ce dossier complet.
 
-Bon courage pour ce projet, et bonne journée !
+![image](https://github.com/aurelienheude/P3-Booki/assets/50832720/9f2a94d1-7850-491b-9a65-345dcf515985)
 
-Sarah, CTO @Booki
+- Un dossier, compressé au format ZIP, contenant le code, et dans le détail :
+- Un fichier “index.html” contenant l’ensemble du code HTML du projet.
+- Un dossier “CSS” comprenant un fichier “style.css” contenant l’ensemble du code CSS du projet.
+- Un dossier “images” contenant l’ensemble des images utilisées.
 
-![image](https://github.com/aurelienheude/P3-Booki/assets/50832720/2cbd8482-c4cd-4252-94a8-2c2683570977)
+**Pour faciliter votre passage devant le jury, déposez sur la plateforme, dans un dossier ZIP nommé “Titre_du_projet_nom_prénom”, tous les livrables du projet comme suit : Nom_Prénom_n° du livrable_nom du livrable__date de démarrage du projet. Cela donnera :**
 
-Un dossier, compressé au format ZIP, contenant le code, et dans le détail :
-Un fichier “index.html” contenant l’ensemble du code HTML du projet.
-Un dossier “CSS” comprenant un fichier “style.css” contenant l’ensemble du code CSS du projet.
-Un dossier “images” contenant l’ensemble des images utilisées.
+**Nom_Prénom_1_code_mmaaaa ;**
+
+Par exemple, le premier livrable peut être nommé comme suit : **Dupont_Jean_1_code_012022**
+
+
+### C'est parti pour coder !!! O:
+
+![](https://media.tenor.com/exuPwTTU-FwAAAAC/key-click-typing.gif)
+
+#### Ressources
+
+**Spécifications fonctionnelles** : ![Lien](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P3+HTML+CSS+Booki/IW+%3A+React+Booki+-+Note+de+synthese.pdf)
+**Maquette Figma** : ![Lien]([https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P3+HTML+CSS+Booki/IW+%3A+React+Booki+-+Note+de+synthese.pdf](https://www.figma.com/file/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?type=design&node-id=3-0&mode=design)https://www.figma.com/file/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?type=design&node-id=3-0&mode=design)
