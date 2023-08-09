@@ -43,7 +43,8 @@ Par exemple, le premier livrable peut être nommé comme suit : **Dupont_Jean_1_
 
 ![](https://media.tenor.com/exuPwTTU-FwAAAAC/key-click-typing.gif)
 
-#### Ressources
+#### Ressources :
 
-**Spécifications fonctionnelles** : ![Lien](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P3+HTML+CSS+Booki/IW+%3A+React+Booki+-+Note+de+synthese.pdf)
-**Maquette Figma** : ![Lien]([https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P3+HTML+CSS+Booki/IW+%3A+React+Booki+-+Note+de+synthese.pdf](https://www.figma.com/file/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?type=design&node-id=3-0&mode=design)https://www.figma.com/file/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?type=design&node-id=3-0&mode=design)
+[Spécifications fonctionnelles](https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P3+HTML+CSS+Booki/IW+%3A+React+Booki+-+Note+de+synthese.pdf)
+
+[Maquette Figma](https://www.figma.com/file/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?type=design&node-id=3-0&mode=design)
