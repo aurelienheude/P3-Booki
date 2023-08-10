@@ -45,6 +45,7 @@ a{
 
 p{
     margin: 0;
+
     font-weight: 400;
     line-height: 18.78px;
 }
@@ -69,6 +70,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     height: 79px;
 }
 
@@ -80,6 +82,7 @@ header img{
 header nav{
     display: flex;
     justify-content: space-around;
+
     height: 100%;
 }
 
@@ -101,6 +104,7 @@ header nav ul li{
 header nav ul li a{
     display: flex;
     align-items: center;
+
     height: 100%;
 }
 
@@ -128,6 +132,7 @@ header nav ul li a .border-top
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
     gap: 35px
 }
 
@@ -137,15 +142,19 @@ header nav ul li a .border-top
 
 .input-location-grp{
     display: flex;
+
     height: 49px;
+
     border-radius: 15px;
 }
 .input-location-grp .icon{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--main-bg-color);
+    
     width: 50px;
+    
+    background: var(--main-bg-color);
 
     border-radius: 15px 0px 0px 15px;
     border-top: 1px solid rgba(242, 242, 242, 1);
@@ -186,6 +195,7 @@ header nav ul li a .border-top
     gap: 10px;
 
     height: 49px;
+
     padding: 19px 14px;
 
     border-radius: 0px 15px 15px 0px;
@@ -227,6 +237,7 @@ header nav ul li a .border-top
 
     border-radius: 25px;
     border: 2px solid rgba(217, 217, 217, 1);
+
     background: none;
 
     font-size: 17px;
@@ -257,19 +268,25 @@ header nav ul li a .border-top
 .main-container {
     width: 100%;
     max-width: 1440px;
+
     padding: 0 50px;
+
     box-sizing: border-box;
 }
 
 .section-title {
     margin: 0;
+
     font-size: 22px;
 }
 
 .card {
-    background-color: white;
-    border-radius: 20px;
     padding: 5px;
+
+    background-color: white;
+
+    border-radius: 20px;
+
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
@@ -297,9 +314,11 @@ header nav ul li a .border-top
 }
 
 .hebergements-and-populaires section {
+    padding: 30px;
+
     background-color: var(--main-bg-color);
     border-radius: 20px;
-    padding: 30px;
+
     box-sizing: border-box;
 }
 
@@ -321,6 +340,7 @@ header nav ul li a .border-top
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
+
     gap: 30px;
     
 }
@@ -329,9 +349,9 @@ header nav ul li a .border-top
     display: flex;
     flex-direction: column;
     
-    flex-basis: 29.45%;
-
     gap: 4px;
+
+    flex-basis: 29.45%;
 
     margin-top: 30px;
 }
@@ -339,6 +359,7 @@ header nav ul li a .border-top
 .hebergements-cards img {
     width: 100%;
     height: 124px;
+
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -377,17 +398,22 @@ header nav ul li a .border-top
 .populaires-cards img {
     width: 33%;
     height: 136px;
+
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
 .populaires-cards .card-content {
-    width: 67%;
-    padding-left: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
     box-sizing: border-box;
+
+    width: 67%;
+
+    padding-left: 15px;
+
 }
 
 .populaires-cards .card-title {
@@ -411,6 +437,7 @@ header nav ul li a .border-top
 
 .activite .activite-cards{
     display: flex;
+
     gap: 30px;
 
     margin-top: 30px;
@@ -422,6 +449,7 @@ header nav ul li a .border-top
 
     height: 439px;
     width: 50%;
+
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
 }   
@@ -429,14 +457,16 @@ header nav ul li a .border-top
 .activite .activite-cards .activite-card img {
     width: 100%;
     height: 380px;
+
     object-fit: cover;
+
     filter: #D3D3D3(50%);
     border-radius: 20px 20px 0px 0px;
 }
 
 .activite .activite-cards .activite-card a{
-
     padding: 19px 20px ;
+
     color: #000;
 
     font-size: 16px;
@@ -448,26 +478,28 @@ header nav ul li a .border-top
 /****** Footer ***********/
 
 footer{
-    background: #F2F2F2;
     margin-top: 35px;
     padding: 20px;
+
+    background: #F2F2F2;
 }
 
 footer .footer-menu{
-    padding: 0;
     display: flex;
-    
+
+    padding: 0;
 }
 
 footer .footer-menu ul {
-    flex-grow: 1;
-
     display: flex;
     flex-direction: column;
+
+    flex-grow: 1;
+
     gap: 15px;
+
     margin: 0;
     padding: 0;
-
 }
 
 footer .footer-menu ul li{
@@ -483,7 +515,6 @@ footer .footer-menu ul li a{
 }
 
 footer .footer-menu ul li:first-child{
-    font-family: Raleway;
     color: #000;
     font-size: 18px;
     font-style: normal;
