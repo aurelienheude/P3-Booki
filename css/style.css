@@ -30,7 +30,7 @@ main {
 
 p{
     font-weight: 400;
-    line-height: 17.78px;
+    line-height: 1.11125em;
     color: var(--main-black-color);
 }
 
@@ -160,7 +160,7 @@ header nav ul li a .border
     align-items: center;
     justify-content: center;
     
-    width: 50px;
+    min-width: 50px;
     
     background: var(--main-bg-color);
 
@@ -182,7 +182,7 @@ header nav ul li a .border
     background: white;
     color: black;
 
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     font-weight: 700;
 }
@@ -196,7 +196,7 @@ header nav ul li a .border
     outline: none;
 }
 
-.input-location-grp button{
+.input-location-grp .search-desktop{
     display: flex;
     align-items: center;
     
@@ -220,16 +220,45 @@ header nav ul li a .border
     line-height: normal;
 }
 
+.input-location-grp .search-mobile{
+    display: none;
+    align-items: center;
+    
+    gap: 10px;
+
+    height: 49px;
+
+    padding: 19px 14px;
+
+    border-radius: 15px;
+    border: 1px solid var(--blue, #0065FC);
+
+    background: var(--blue, #0065FC);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .filter-bar{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
     align-items: center;
     
     gap: 15px;
-
-
 }
 
+.filter-bar .filter-buttons{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 15px;
+}
 
 .filter-bar button{
     display: flex;
@@ -238,10 +267,9 @@ header nav ul li a .border
     
     gap: 10px;
 
-    width: 173px;
     height: 50px;
 
-    padding: 4px 19px 4px 19px;
+    padding: 4px 19px;
 
     border-radius: 25px;
     border: 2px solid rgba(217, 217, 217, 1);
@@ -250,7 +278,7 @@ header nav ul li a .border
 
     font-size: 17px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 1.11125em;
     letter-spacing: 0em;
 
     transition: background 0.3s;
@@ -270,6 +298,11 @@ header nav ul li a .border
 
 .info-bar p{
     margin: 0;
+}
+
+.info-bar svg{
+    min-width: 24px;
+    min-height: 24px;
 }
 
 /****** FIN Trouver hébergement ***********/
@@ -510,10 +543,6 @@ footer .footer-menu ul {
     padding: 0;
 }
 
-footer .footer-menu ul li{
-
-}
-
 footer .footer-menu ul li a{
     color: #000;
 
@@ -537,6 +566,12 @@ footer .footer-menu ul li:first-child{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+    .trouver-hebergement .filter-bar{
+        align-items: flex-start;
+        flex-flow: column;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -625,5 +660,49 @@ footer .footer-menu ul li:first-child{
         height: 2px;
         
         background: var(--main-bg-color);
+    }
+
+    .trouver-hebergement{
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
+    }
+
+    .trouver-hebergement .input-location-grp{
+        width: 100%;
+    }
+
+    .trouver-hebergement .input-location-grp input{
+        flex-grow: 1;
+
+        max-width: inherit;
+        min-width: 176px;
+
+        padding-right: 0px;
+    }
+
+    .trouver-hebergement .input-location-grp .search-mobile{
+        display: inline-flex;
+    }
+
+    .trouver-hebergement .input-location-grp .search-desktop{
+        display: none;
+    }
+
+    .trouver-hebergement .filter-bar, .filter-buttons{
+        width: 100%;
+    }
+
+    .trouver-hebergement .filter-bar .filter-buttons{
+        gap: 20px 10px;
+    }
+    .trouver-hebergement .filter-bar .filter-buttons button{
+        flex: 47.99999%;
+
+        justify-content: flex-start;
+
+        text-align: left;
+
+        font-size: 14px;
+        line-height: 18.78px;
     }
 }
