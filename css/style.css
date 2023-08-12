@@ -705,4 +705,14 @@ footer .footer-menu ul li:first-child{
         font-size: 14px;
         line-height: 18.78px;
     }
+
+    footer{
+        padding: 30px;
+    }
+
+    footer .footer-menu{
+        flex-direction: column;
+        align-content: flex-start;
+        gap: 50px;
+    }
 }
