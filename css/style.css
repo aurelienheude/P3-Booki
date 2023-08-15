@@ -277,7 +277,7 @@ header nav ul li a .border
 
     font-size: 17px;
     font-weight: 700;
-    line-height: 1.11125em;
+    line-height: 19.96px;
     letter-spacing: 0em;
 
     transition: background 0.3s;
@@ -586,6 +586,12 @@ footer .footer-menu ul li:first-child{
         flex-flow: column;
     }
 
+    .trouver-hebergement .filter-bar .filter-buttons button{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -691,8 +697,8 @@ footer .footer-menu ul li:first-child{
 
     /* TROUVER HEBERGEMENT */
     .trouver-hebergement{
-        padding-right: 1.25rem;
-        padding-left: 1.25rem;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .trouver-hebergement .input-location-grp{
@@ -724,14 +730,15 @@ footer .footer-menu ul li:first-child{
         gap: 20px 10px;
     }
     .trouver-hebergement .filter-bar .filter-buttons button{
-        flex: 47.99999%;
+        flex: 46.98995%;
 
         justify-content: flex-start;
 
         text-align: left;
 
+        font-weight: 700;
         font-size: 14px;
-        line-height: 18.78px;
+        line-height: 16.44px;
     }
     /* FIN TROUVER HEBERGEMENT */
 
