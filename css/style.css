@@ -4,7 +4,7 @@
 }
 
 :root {
-    --main-color: #0065FC;
+    --main-color: rgba(0, 101, 252, 1);
     --main-bg-color: #F2F2F2;
     --main-black-color: rgba(0, 0, 0, 1);
     --filter-bg-color: #DEEBFF;
@@ -47,7 +47,7 @@ p{
     margin: 0;
 
     font-weight: 400;
-    line-height: 18.78px;
+    line-height: normal;
 }
 
 .Title-txt{
@@ -170,9 +170,9 @@ header nav ul li a .border
 
 .input-location-grp input{
     height: 100%;
-    max-width: 200px;
+    max-width: 194px;
 
-    padding: 24px 14px;
+    padding: 14px 0px 14px 24px;
 
     border-top: 1px solid rgba(242, 242, 242, 1);
     border-left: none;
@@ -188,7 +188,6 @@ header nav ul li a .border
 }
 
 .input-location-grp input::placeholder{
-
     color: black;
 }
 
@@ -319,6 +318,7 @@ header nav ul li a .border
     margin: 0;
 
     font-size: 22px;
+    font-weight: 700;
 }
 
 .card {
@@ -362,15 +362,6 @@ header nav ul li a .border
 
     box-sizing: border-box;
 }
-
-
-
-
-
-
-
-
-
 
 /****** Hebergements ***********/
 .hebergements {
@@ -431,6 +422,12 @@ header nav ul li a .border
     padding: 0;
 }
 
+.hebergements .card .card-content .card-subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -477,6 +474,9 @@ header nav ul li a .border
 
 .populaires-cards .card-subtitle {
     margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
 }
 
 .populaires-cards .card-rating {
