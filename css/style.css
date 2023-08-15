@@ -377,29 +377,38 @@ header nav ul li a .border
     width: 65%;
 }
 
+.hebergements .Title-txt{
+    align-self: flex-start;
+
+    margin-top: 30px;
+}
+
 .hebergements-cards{
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
-
+    justify-content: stretch;
     gap: 30px;
-    
 }
 
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
-    
     gap: 4px;
-
-    flex-basis: 29.45%;
-
+    
+    flex-basis: 27.67593%;
+    flex-grow: 1;
+    
     margin-top: 30px;
+    padding-bottom: 10px;
+
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
 .hebergements-cards img {
     width: 100%;
     height: 124px;
+
+    object-fit: cover;
 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -408,6 +417,9 @@ header nav ul li a .border
 .hebergements-cards .card .card-content{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
+    flex-grow: 1;
 
     gap: 8px;
 
@@ -418,7 +430,6 @@ header nav ul li a .border
     margin: 0;
     padding: 0;
 }
-
 
 /****** Populaires ***********/
 .populaires {
@@ -434,6 +445,8 @@ header nav ul li a .border
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
+
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
 .populaires-cards img {
@@ -447,10 +460,10 @@ header nav ul li a .border
 .populaires-cards .card-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 
     box-sizing: border-box;
-
+    
     width: 67%;
 
     padding-left: 15px;
@@ -468,6 +481,7 @@ header nav ul li a .border
 
 .populaires-cards .card-rating {
     margin-bottom: 5px;
+    margin-top: auto;
 }
 
 /****** Activite ***********/
@@ -580,6 +594,10 @@ footer .footer-menu ul li:first-child{
         width: 100%;
     }
 
+    .hebergements-cards .card{
+        flex-basis: 28.25983%;
+    }
+
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -610,11 +628,15 @@ footer .footer-menu ul li:first-child{
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    /* GLOBAL */
 
     .main-container{
         padding: 0;
     }
+
+    /* FIN GLOBAL */
+
+    /* HEADER */
     header{
         flex-direction: column;
     }
@@ -665,7 +687,9 @@ footer .footer-menu ul li:first-child{
         
         background: var(--main-bg-color);
     }
+     /* FIN HEADER */
 
+    /* TROUVER HEBERGEMENT */
     .trouver-hebergement{
         padding-right: 1.25rem;
         padding-left: 1.25rem;
@@ -709,7 +733,73 @@ footer .footer-menu ul li:first-child{
         font-size: 14px;
         line-height: 18.78px;
     }
+    /* FIN TROUVER HEBERGEMENT */
 
+
+    /* H & P */
+    .hebergements-and-populaires section{
+        border-radius: inherit;
+        padding: 30px 20px 20px 20px;
+        box-sizing: border-box;
+    }
+    /* FIN H & P */
+
+    /* HEBERGEMENT */
+
+    .hebergements{
+        order: 2;
+        background: white!important;
+    }
+
+    .hebergements-cards .card{
+        flex-basis: 100%;
+    }
+
+    .hebergements-cards > #card-1{
+        order: 1;
+    }
+
+    .hebergements-cards > #card-2{
+        order: 6;
+    }
+
+    .hebergements-cards > #card-3{
+        order: 3;
+    }
+
+    .hebergements-cards > #card-4{
+        order: 4;
+    }
+
+    .hebergements-cards > #card-5{
+        order: 2;
+    }
+
+    .hebergements-cards > #card-6{
+        order: 5;
+    }
+
+    /* FIN HEBERGEMENT */
+
+    /* POPULAIRE */
+
+        .populaires{
+            display: flex;
+            flex-direction: column;
+            margin-top: 0;
+        }
+
+        .populaires .populaires-cards{
+            flex-direction: column;
+        }
+
+        .populaires .populaires-cards .card{
+            margin-top: 15px;
+            width: inherit;
+        }
+    /* FIN POPULAIRE */
+
+    /* ACTIVITE */
     .activite .activite-cards{
         flex-direction: column;
     }
@@ -717,7 +807,9 @@ footer .footer-menu ul li:first-child{
     .activite .activite-cards .activite-card img{
         height: 141px;
     }
+    /* FIN ACTIVITE */
 
+    /* FOOTER */
     footer{
         padding: 30px;
     }
@@ -727,4 +819,5 @@ footer .footer-menu ul li:first-child{
         align-content: flex-start;
         gap: 50px;
     }
+    /* FIN FOOTER */
 }
